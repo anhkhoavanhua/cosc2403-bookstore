@@ -1,0 +1,471 @@
+/* Home page css */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #8ed8e3;
+}
+h1, h2,h4,li,p {
+  font-family: Blippo, fantasy;
+}
+.li-group{
+  display: inline;
+}
+li {
+  float: left;
+}
+
+.nav-bar a {
+  display: block;
+  color: black;
+  font-size:20px;
+  text-align: center;
+  padding: 30px 70px;
+  text-decoration: none;
+}
+
+
+.nav-bar a:hover {
+  color: white;
+}
+img {
+  width: 60px;
+  height: 60px;
+  padding-left: 20px;
+  margin: 10px;
+}
+a {
+  text-decoration: none;
+}
+header{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.video-book {
+  position: absolute;
+  top: 160%;
+  left: 500px;
+}
+/* Non-fiction */ 
+.category1 {
+  position: absolute;
+  top: 100px;
+  left: 320px;
+}
+.sub-category1 {
+  position: absolute;
+  top: 100px;
+  left: 320px;
+  
+}
+.category1 h2, .category2 h2 , .category3 h2, .sub-category1 h2,.sub-category2 h2  {
+  padding-left: 330px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+/* fiction */ 
+.category2 {
+  position: absolute;
+  top: 600px;
+  left: 320px;
+
+}
+.sub-category2 {
+  position: absolute;
+  top: 600px;
+  left: 320px;
+}
+.category3 {
+  position: absolute;
+  top: 155%;
+  left: 320px;
+}
+.card {
+  display: inline-table;
+  width: 40px;
+  height: 40px;
+  margin-right: 200px;
+}
+.card img {
+  width: 100px;
+  height: 200px;
+  padding-left: 2px;
+}
+
+/* footer */
+.foot-group {
+  display: inline;
+}
+#footer-1 {
+  position: absolute;
+  width: 100%;
+  top: 130%;
+  left: 0;
+  right:0;
+}
+#footer-2{
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 0;
+  right:0;
+}
+#footer-3{
+  position: absolute;
+  width: 100%;
+  top: 200%;
+  left: 0;
+  right:0;
+}
+#footer-4, #footer-5{
+  position: absolute;
+  width: 100%;
+  top: 230%;
+  left: 0;
+  right:0;
+}
+#footer-nav-bar li a{
+  display: block;
+  color: black;
+  font-size:13px;
+  text-align: center;
+  padding: 13px 13px;
+  text-decoration: none;
+}
+#footer-nav-bar  {
+  padding-left: 20px;
+}
+
+/* end Home Page css */
+
+/* Category1 Page */
+
+.hello {
+  position: absolute;
+  width: 100%;
+  top: 165%;
+  left: 0;
+  right:0;
+}
+/* BookDetailPage */
+.breadcrumb {
+  position: absolute;
+  width: 100%;
+  top: 13%;
+  left: 0;
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #eee;
+}
+
+      /* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+        /* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+      /* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+       /* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+#book-name{
+  position: absolute;
+  top: 30%;
+}
+.book-group {
+  display: inline-block;
+}
+
+#alchemist {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  height: 500px;
+  width: 300px;
+}
+.book-small {
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 140px;
+  width: 100px;
+  margin-bottom: 100px;
+  margin-left: 30px;
+}
+.book-group p {
+  position: absolute;
+  color: black;
+  font-size:30px;
+  top: 450px;
+  padding-left: 30px;
+
+}
+.book-group button {
+  /*top: 310px;
+  left: 564px;*/
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 17px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 9px;
+  cursor: pointer;
+}
+
+
+#book-description {
+  position: absolute;
+  top: 120%;
+}
+/* end of detail page */
+
+/* contact page */
+
+* {
+  box-sizing: border-box;
+}
+
+.form-group {
+  display: flex;
+}
+label {
+  padding-right: 30px;
+  margin-top: 9px;
+
+}
+
+/* Style inputs */
+input[type=text], select, textarea, input[type=email],input[type=tel]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit],input[type=reset] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  margin-top: 9%;
+  margin-left: 5%;
+}
+
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 0px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1400px) {
+  #footer-3 {
+    top: 340%;
+  }
+  #footer-1 {
+    top: 140%;
+  }
+  #footer-4, #footer-5{
+    top: 360%;
+  }
+  .category3 {
+    position: absolute;
+    left: 300px;
+    top: 1700px;
+  }
+  .category2 {
+    position: absolute;
+    top: 130%;
+    left: 310px;
+    width: 40%;
+  }
+  .sub-category2 {
+    position: absolute;
+    left: 300px;
+    top: 850px;
+  }
+  .video-book{
+    position: absolute;
+    top: 300%;
+  }
+
+}
+@media screen and (max-width: 1200px) {
+  #footer-1 {
+    top: 150%;
+  }
+  .category2 {
+    position: absolute;
+    top: 130%;
+    left: 310px;
+    width: 40%;
+  }
+  .category2 .card {
+    display: inline-table;
+  }
+  #footer-3 {
+    top: 340%;
+  }
+  .sub-category2 {
+    position: absolute;
+    top: 120%;
+    left: 300px;
+    width: 40%;
+  }
+  .category3 {
+    position: absolute;
+    left: 0;
+    top: 2300px;
+  }
+  #footer-4 ,#footer-5{
+    top: 450%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .column, input[type=submit],input[type=reset] {
+    width: 100%;
+    margin-top: 3px;
+  }
+  .form-group {
+    display: inline;
+  }
+  .container {
+    margin-top: 63%;
+    margin-left: 3%;
+  }
+  .li-group {  
+    display: flex;
+    padding-left: 35%;
+  }
+  #footer-1 {
+    top: 290%;
+  }
+  .book-group {
+    display: flex;
+  }
+  #book-name {
+    top: 100%;
+  }
+  .breadcrumb {
+    top: 47%;
+  }
+  .book-group p {
+      position: absolute;
+      top: 83%;
+    }
+  #book-description {
+    position: absolute;
+    top: 223%;
+  }
+  #footer-2 {
+    top: 260%;
+  }
+  .category1 {
+    position: absolute;
+    left: 5px;
+    width: 93%;
+    top: 53%;
+  }
+  .sub-category1 {
+    position: absolute;
+    left: 5px;
+    width: 93%;
+    top: 53%;
+  }
+  .category2 {
+    position: absolute;
+    top: 220%;
+    left: 5px;
+    width: 93%;
+  }
+  .sub-category2 {
+    position: absolute;
+    top: 200%;
+    left: 5px;
+    width: 93%;
+  }
+  #footer-3 {
+    top: 330%;
+  }
+  .video-book{
+    position: absolute;
+    top: 330%;
+    left: 10px;
+  }
+}
+@media screen and (max-width: 940px) {
+  #footer-1 {
+    top: 210%;
+  }
+  .container {
+    margin-top: 85%;
+  }
+  #footer-3 {
+    top: 428%;
+  }
+  #footer-4 , #footer-5{
+    top: 513%;
+  }
+  
+  .category3 {
+    position: absolute;
+    left: 0;
+    top: 2560px;
+  }
+  .video-book{
+    position: absolute;
+    top: 330%;
+    left: 10px;
+  }
+}
+
+@media screen and (max-width: 927px) {
+  #footer-1 {
+    top: 250%;
+  }
+}
+
+
+
